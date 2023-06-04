@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+        {
+          "source": "/",
+          "destination": "https://publish.obsidian.md/serve?url=https://notes.franklin.dev/"
+        },
+        {
+          "source": "/:path*",
+          "destination": "https://publish.obsidian.md/serve?url=https://notes.franklin.dev/:path*"
+        }
+      ]
+}
